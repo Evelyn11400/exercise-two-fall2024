@@ -8,7 +8,6 @@ export default function ArticleCard({
   publishedDate,
   title,
 }) {
-  //const parsedDate = new Date(publishedDate).toISOString();
   return (
     <div className={styles.articleCardWrapper}>
       <img src={image.url} alt={image.alt} />
