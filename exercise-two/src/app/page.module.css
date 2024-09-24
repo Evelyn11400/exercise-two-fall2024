@@ -1,0 +1,7 @@
+.pageWrapper {
+  max-width: 840px;
+}
+.articleCardWrapper img {
+  height: auto;
+  width: 200px;
+}
