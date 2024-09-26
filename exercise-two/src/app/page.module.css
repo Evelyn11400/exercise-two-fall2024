@@ -1,7 +1,36 @@
 .pageWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 840px;
+  margin: 0 auto;
 }
+
+.articleCardWrapper {
+  align-items: center;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  min-width: 100%;
+  padding: 20px;
+}
+
 .articleCardWrapper img {
   height: auto;
+  margin-right: 20px;
   width: 200px;
+}
+
+.articleCardWrapper .publishedDate {
+  color: grey;
+}
+
+.articlePageHeaderWrapper {
+  background-color: antiquewhite;
+  /* background-image: url(''); */
+  background-size: cover;
+  min-height: 200px;
 }
