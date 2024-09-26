@@ -15,7 +15,9 @@ export default function ArticleCard({
         <h2>{title}</h2>
         <p className={styles.articleCardDate}>{publishedDate}</p>
         <p>{blurb}</p>
-        <Link href={`article/${id}`}>Read More</Link>
+        <Link href={`article/${id}`} className={styles.link}>
+          Read More
+        </Link>
       </div>
     </div>
   );

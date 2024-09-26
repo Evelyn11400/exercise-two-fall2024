@@ -6,7 +6,7 @@ export default function Home() {
   console.log(data);
   return (
     <main className={styles.pageWrapper}>
-      <h1>Article Listing</h1>
+      <p className={styles.title}>Article Listing</p>
       {data.map((article, i) => (
         <ArticleCard
           key={i}
